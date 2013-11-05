@@ -16,6 +16,24 @@
       "revId": "74515cd6d18784fcd2e23306fa03d5415723a3a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_23f138ce",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-11-05T16:01:00Z",
+      "side": 1,
+      "message": "Right, but I thought to keep in line with omapzoom, BOARD_WPAN_DEVICE is a CM thing but BOARD_HAVE_BLUETOOTH_TI is an omapzoom thing.",
+      "parentUuid": "fa1b9901_a3dc6847",
+      "revId": "74515cd6d18784fcd2e23306fa03d5415723a3a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
