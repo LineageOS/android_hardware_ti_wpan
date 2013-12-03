@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa80f949_7c5e0647",
+        "filename": "tools/FM/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-12-03T11:13:00Z",
+      "side": 1,
+      "message": "I would prefer you didn\u0027t check against \"false\". Setting a flag to \"false\" to enable some behavior is very non-standard.",
+      "revId": "4e1e58a2adf50e185bef566c104946b23de34c39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
