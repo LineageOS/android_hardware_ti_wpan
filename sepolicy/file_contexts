@@ -1,1 +1,1 @@
-/system/vendor/bin/hw/android\.hardware\.bluetooth@1\.0-service\.hikey      u:object_r:hal_bluetooth_hikey_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.0-service\.hikey      u:object_r:hal_bluetooth_hikey_exec:s0
