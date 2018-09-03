@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#define LOG_TAG "android.hardware.bluetooth@1.0.hikey"
+#define LOG_TAG "android.hardware.bluetooth@1.0.ti_uim"
 
 #include "bluetooth_hci.h"
 
@@ -28,7 +28,7 @@ namespace android {
 namespace hardware {
 namespace bluetooth {
 namespace V1_0 {
-namespace hikey {
+namespace ti_uim {
 
 using android::hardware::hidl_vec;
 
@@ -117,7 +117,7 @@ Return<void> BluetoothHci::sendScoData(const hidl_vec<uint8_t>& packet) {
   return Void();
 }
 
-}  // namespace hikey
+}  // namespace ti_uim
 }  // namespace V1_0
 }  // namespace bluetooth
 }  // namespace hardware

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#define LOG_TAG "android.hardware.bluetooth@1.0-service.hikey"
+#define LOG_TAG "android.hardware.bluetooth@1.0-service.ti_uim"
 
 #include <android/hardware/bluetooth/1.0/IBluetoothHci.h>
 #include <hidl/HidlSupport.h>
@@ -25,7 +25,7 @@
 
 using ::android::hardware::configureRpcThreadpool;
 using ::android::hardware::bluetooth::V1_0::IBluetoothHci;
-using ::android::hardware::bluetooth::V1_0::hikey::BluetoothHci;
+using ::android::hardware::bluetooth::V1_0::ti_uim::BluetoothHci;
 using ::android::hardware::joinRpcThreadpool;
 using ::android::sp;
 

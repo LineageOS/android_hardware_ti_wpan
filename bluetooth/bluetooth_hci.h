@@ -27,7 +27,7 @@ namespace android {
 namespace hardware {
 namespace bluetooth {
 namespace V1_0 {
-namespace hikey {
+namespace ti_uim {
 
 using ::android::hardware::Return;
 using ::android::hardware::hidl_vec;
@@ -66,7 +66,7 @@ class BluetoothHci : public IBluetoothHci {
   ::android::sp<BluetoothDeathRecipient> deathRecipient;
 };
 
-}  // namespace hikey
+}  // namespace ti_uim
 }  // namespace V1_0
 }  // namespace bluetooth
 }  // namespace hardware

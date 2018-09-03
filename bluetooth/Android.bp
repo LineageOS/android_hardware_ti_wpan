@@ -14,7 +14,7 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.bluetooth@1.0-service.hikey",
+    name: "android.hardware.bluetooth@1.0-service.ti_uim",
     proprietary: true,
     relative_install_path: "hw",
     srcs: [
@@ -43,5 +43,5 @@ cc_binary {
         "liblog",
         "libutils",
     ],
-    init_rc: ["android.hardware.bluetooth@1.0-service.hikey.rc"],
+    init_rc: ["android.hardware.bluetooth@1.0-service.ti_uim.rc"],
 }
